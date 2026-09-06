@@ -1,5 +1,1 @@
-# Reemplaza la línea de abajo con la que te da tu cuenta de Google AdSense
-# (Configuración → Sitios → tu sitio → verás el código pub-XXXXXXXXXXXXXXXX)
-# Debe quedar en la raíz del dominio: https://tudominio.com/ads.txt
-
-google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-5756069551945820, DIRECT, f08c47fec0942fa0
