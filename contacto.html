@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto | NodoGamer</title>
+<meta name="description" content="Escríbenos por consultas, sugerencias de temas o reportar un error en un artículo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap site-bar">
+    <a href="index.html" class="logo">Nodo<span>Gamer</span></a>
+    <nav class="main-nav">
+      <a href="index.html">Inicio</a>
+      <a href="index.html#perifericos">Periféricos</a>
+      <a href="index.html#componentes">Componentes</a>
+      <a href="acerca.html">Acerca de</a>
+      <a href="contacto.html" class="active">Contacto</a>
+    </nav>
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" placeholder="Buscar artículos..." onfocus="location.href='index.html'">
+    </div>
+  </div>
+</header>
+
+<main class="wrap static-page">
+  <h1>Contacto</h1>
+  <p>¿Tienes una sugerencia de tema, encontraste un error en un artículo o quieres consultarnos algo específico sobre un producto? Escríbenos con el siguiente formulario o directamente al correo indicado abajo.</p>
+
+  <form class="contact-form" onsubmit="alert('Conecta este formulario a tu proveedor de correo o formulario (Formspree, Google Forms, etc.) antes de publicar el sitio.'); return false;">
+    <div>
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" required>
+    </div>
+    <div>
+      <label for="email">Correo</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+    </div>
+    <button type="submit">Enviar mensaje</button>
+  </form>
+
+  <p class="muted" style="margin-top:32px;">También puedes escribir directamente a <strong>contacto@nodogamer.pe</strong> (reemplaza este correo por el que uses en la práctica).</p>
+</main>
+
+<footer class="site">
+  <div class="wrap footer-grid">
+    <span>© 2026 NodoGamer. Todo el contenido es original.</span>
+    <div class="footer-links">
+      <a href="acerca.html">Acerca de</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="privacidad.html">Política de privacidad</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
