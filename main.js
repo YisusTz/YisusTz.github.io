@@ -2,6 +2,41 @@
 
 const POSTS = [
   {
+    title: "Docking stations y hubs USB-C: cómo ordenar tu setup gamer sin perder velocidad",
+    url: "docking-station-setup-gamer.html",
+    cat: "Componentes",
+    excerpt: "Qué revisar en un hub USB-C antes de conectar monitor, periféricos y almacenamiento al mismo cable.",
+    date: "2026-09-03"
+  },
+  {
+    title: "Capturadoras de video para streaming: cuándo sí las necesitas",
+    url: "capturadoras-video-streaming.html",
+    cat: "Streaming",
+    excerpt: "Diferencia entre capturar por software y por hardware, y cuándo una capturadora externa vale la pena.",
+    date: "2026-09-03"
+  },
+  {
+    title: "Discos externos para respaldo de juegos: HDD vs SSD externo",
+    url: "discos-externos-respaldo-juegos.html",
+    cat: "Componentes",
+    excerpt: "Cuándo un disco externo mecánico sigue siendo la mejor opción y cuándo conviene pagar por SSD externo.",
+    date: "2026-09-03"
+  },
+  {
+    title: "Seguridad básica para gamers: antivirus y buenas prácticas que sí importan",
+    url: "seguridad-antivirus-gamers.html",
+    cat: "Guías",
+    excerpt: "Qué proteger realmente cuando descargas mods, cheats o software pirata para juegos.",
+    date: "2026-09-03"
+  },
+  {
+    title: "Mandos para PC: cableado vs inalámbrico y qué revisar antes de comprar",
+    url: "mandos-control-pc-guia.html",
+    cat: "Periféricos",
+    excerpt: "Compatibilidad, latencia y duración de batería en controles para jugar en PC.",
+    date: "2026-09-03"
+  },
+  {
     title: "Los mejores mouse gamer de 2026 según tu presupuesto",
     url: "mejores-mouse-gamer-2026.html",
     cat: "Periféricos",
